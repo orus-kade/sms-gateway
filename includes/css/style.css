@@ -1,0 +1,97 @@
+.sms_sender_hidden{
+	display: none;
+}
+.sms_sender_visible{
+	display: inline;
+}
+.sms_sender_text textarea{
+	width: 100%;
+	height: 80px;
+}
+.sms_sender_status{
+	width: 100px;
+	vertical-align: middle !important;
+}
+.sms_sender_notice{
+	padding-right: 38px;
+	position: relative;
+	margin: 5px 0 15px;
+	border-left: 4px solid #46b450;
+	padding: 1px 12px;
+	background: #fff;
+}
+.sms_sender_form_text{
+	width: 100%;
+	height: 200px;
+}
+.sms_sender_selector{
+	width: 100%;
+	height: 70px !important;
+}
+.sms_sender_form{
+	width: 400px;
+}
+.sms_sender_notice_width{
+	display: block;
+}
+/* заголовки таблицы */
+table.sort thead td{
+	cursor:pointer;
+	cursor:hand;
+	line-height: 1.4em;
+	border-bottom: 1px solid #e1e1e1;
+	text-align: left;
+	font-weight: 600;
+}
+/* заголовок отсортированного столбца */
+table.sort thead td.curcol{
+	background-color: #0085ba;
+	color:#FFFFFF
+}
+.sms_sender_ul{
+	margin-bottom: 20px;
+}
+p.sms_sender_right{
+	text-align: right;
+}
+.sms_sender_fieldset{
+	padding: 10px;
+	border: 1px solid #797979;
+	display: inline;
+}
+.sms_sender_fieldset>legend{
+	font-weight: 500;
+}
+.sms_sender_fieldset_not{
+	padding: 10px;
+	border: 1px solid #797979;
+	display: block;
+}
+.sms_sender_fieldset_not>p{
+	margin: 0.5em 0;
+}
+
+.sms_sender_fieldset_not h3{
+	margin: 0;
+}
+.sms_sender_check_not>.sms_sender_select{
+	width: 100%;
+	height: 60px;
+}
+.sms_sender_check_not{
+	width: 150px;
+}
+.sms_sender_msg_text{
+	height: 70px !important;
+	width: 100%;
+}
+.sms_sender_notice_order_td{
+	width : 80px;
+}
+.sms_sender_not_form{
+	margin: 1em;
+}
+.sms_sender_not_role{
+	width:35%;
+	min-width: 130px;
+}
